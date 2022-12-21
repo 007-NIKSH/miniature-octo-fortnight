@@ -168,9 +168,6 @@ class MAGIC_SQUARE:
         Create_button = Button(text = "  CREATE SQUARE  ",  font = ("times new roman", 30, "bold"), command = lambda:Square_Creater())
         Create_button.place(x = 350, y = 755)
 
-        copyrights = Label(self.root, text = "  © COPYRIGHTS ©  \n  NIKSH HIREMATH  ", font = ("times new roman", 30, "bold"), bg = "gray", fg = "black", bd = 10)
-        copyrights.place(x = 900, y = 750)
-
         self.root.mainloop()
 
 root = Tk()
